@@ -5,6 +5,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>CustomLAExtension.snk</AssemblyOriginatorKeyFile>
     <AssemblyName>CustomLAExtension.ShankarExt</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

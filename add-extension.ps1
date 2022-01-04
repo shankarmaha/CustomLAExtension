@@ -78,7 +78,7 @@
           write-host "func.exe not found"
         }
         
-        $extensionFullName = "CustomLAExtension." + $extensionName
+        $extensionFullName = "CustomLAExtension.Startup" 
         $startupClass = $extensionFullName + "." + $extensionName + "Startup"
         # 1. Add Nuget package to existing project 
         dotnet add package $extensionFullName --version 1.0.0  --source $extensionPath
